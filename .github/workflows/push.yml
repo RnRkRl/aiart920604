@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       model_name:
-        description: 'Enter the model name, like "rnrkrl/aiart920604"'
+        description: 'Enter the model name, like "rnrkrl/aiart920604-test"'
         required: true
  
 jobs:
