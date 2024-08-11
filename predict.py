@@ -6,7 +6,7 @@ import torch
 from PIL import Image
 from diffusers import AutoencoderKL, StableDiffusionInpaintPipeline
 
-MODEL_NAME = "SG161222/Realistic_Vision_V5.0_noVAE"
+MODEL_NAME = "SG161222/Realistic_Vision_V6.0_B1_noVAE"
 MODEL_CACHE = "cache"
 VAE_CACHE = "vae-cache"
 
