@@ -24,7 +24,7 @@ jobs:
       - name: Setup Cog
         uses: replicate/setup-cog@v2
         with:
-          token: ${{ r8_Nk543CLPTKkYeg407aeLwoqEtk07LSP0AkeNK }}
+          token: ${{r8_Nk543CLPTKkYeg407aeLwoqEtk07LSP0AkeNK}}
         
       - name: Push to Replicate
         run: cog push r8.im/${{rnrkrl/aiart920604-test}}
